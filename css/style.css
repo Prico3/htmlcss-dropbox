@@ -154,5 +154,33 @@ li{
 
 }
 
+/* PARTNERS */
+.container-partners{
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.wrapper-partners{
+    margin: 0 auto;
+    height: 400px;
+    padding: 30px;
+    /* debug */
+    width: 70%;
+    border: 1px solid black;
+}
+
+.partners-img{
+    /* debug */
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+.partners-text{
+    /* debug */
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
 
 
