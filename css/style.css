@@ -47,7 +47,6 @@ html{
 /* MAIN */
 
 /* jumbotron */
-
 .container-jumbotron{
     background-color: #b4d0e7;
     /* DEBUG */
@@ -75,3 +74,85 @@ html{
      height: 400px;
      width: 50%;
 }
+
+/* Plans */
+.container-plans{
+    margin-top: 50px;
+
+    /* debug */
+    background-color: grey;
+    height: 1200px;
+}
+
+.wrapper-plans{
+    margin-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+
+.col-plans{
+    width: calc(100% / 3);
+    padding: 20px;
+    /* DEBUG */
+    border: 1px solid green;
+    height: 800px;
+}
+
+/* columns */
+
+.title-col{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.first-list{
+    /* DEBUG */
+    border: 1px solid green;
+}
+
+.second-list{
+    /* DEBUG */
+    border: 1px solid green;
+}
+
+ul{
+    margin: 30px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.team{
+    border: 1px solid green;
+    margin-top: 40px;
+    position: relative;
+    /* DEBUG */
+    height: 200px;
+}
+
+.team-title{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.team-text{
+    /* debug */
+    border: 2px solid pink;
+    width: 70%;
+    height: 150px;
+}
+
+.team-btn{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    /* debug */
+    border: 2px solid green;
+
+}
+
+
+
