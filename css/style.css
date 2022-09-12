@@ -92,7 +92,7 @@ html{
     border: 1px solid black;
 }
 
-.col-plans{
+.col{
     width: calc(100% / 3);
     padding: 20px;
     /* DEBUG */
@@ -107,14 +107,16 @@ html{
     text-align: center;
 }
 
-.first-list{
+.first-part{
     /* DEBUG */
     border: 1px solid green;
+    height: 50%;
 }
 
-.second-list{
+.second-part{
     /* DEBUG */
     border: 1px solid green;
+    height: 50%;
 }
 
 ul{
