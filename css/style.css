@@ -11,3 +11,35 @@ html{
     font-size: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
+/* HEADER */
+
+.container-header{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+.wrapper-header{
+    justify-content: space-between;
+    
+}
+
+.header-left{
+    height: 80px;
+    width: 40%;
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.header-right{
+    height: 80px;
+    width: 40%;
+     /* DEBUG */
+     background-color: red;
+}
