@@ -32,14 +32,46 @@ html{
 
 .header-left{
     height: 80px;
-    width: 40%;
+    width: 30%;
     /* DEBUG */
     background-color: aqua;
 }
 
 .header-right{
     height: 80px;
-    width: 40%;
+    width: 30%;
      /* DEBUG */
      background-color: red;
+}
+
+/* MAIN */
+
+/* jumbotron */
+
+.container-jumbotron{
+    background-color: #b4d0e7;
+    /* DEBUG */
+    height: 600px;
+}
+
+.wrapper-jumbotron{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    /* debug */
+    border: 1PX SOLID black;
+}
+
+.jumbo-text{
+    /* debug */
+    border: 1px solid black;
+    height: 400px;
+    width: 50%;
+}
+
+.jumbo-img{
+     /* debug */
+     border: 1px solid black;
+     height: 400px;
+     width: 50%;
 }
