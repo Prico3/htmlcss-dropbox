@@ -8,11 +8,28 @@
 /* COMMON */
 
 html{
+    font-family: 'Open Sans', sans-serif;
     font-size: 100%;
 }
 
 .flex{
     display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding: 5px;
 }
 
 /* HEADER */
@@ -27,21 +44,24 @@ html{
 
 .wrapper-header{
     justify-content: space-between;
+    height: 80px;
+    
     
 }
 
 .header-left{
-    height: 80px;
-    width: 30%;
-    /* DEBUG */
-    background-color: aqua;
+    padding-top: 30px;
 }
 
 .header-right{
-    height: 80px;
-    width: 30%;
-     /* DEBUG */
-     background-color: red;
+    padding-top: 30px;
+    margin-right: 10px;
+
+}
+
+.wrapper-header ul li{
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* MAIN */
@@ -119,13 +139,7 @@ html{
     height: 50%;
 }
 
-ul{
-    margin: 30px;
-}
 
-li{
-    margin-top: 20px;
-}
 
 .team{
     border: 1px solid green;
