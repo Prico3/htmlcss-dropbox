@@ -164,14 +164,12 @@ input + input{
     margin-top: 40px;
     position: relative;
     border: 1px solid black;
-
 }
 
 .team-title{
     text-align: center;
     border-bottom: 1px solid black;
 }
-
 
 .team-text li{
     margin-top: 10px;
@@ -186,38 +184,31 @@ input + input{
     position: absolute;
     right: 20px;
     top: 40px;
-    /* debug */
-    border: 2px solid green;
-
 }
 
 /* PARTNERS */
-.container-partners{
-    /* DEBUG */
-    background-color: aqua;
-}
+
 
 .wrapper-partners{
     margin: 0 auto;
-    height: 400px;
-    padding: 30px;
-    /* debug */
-    width: 70%;
-    border: 1px solid black;
+    width: 50%;
 }
 
 .partners-img{
-    /* debug */
-    border: 1px solid black;
-    height: 100%;
     width: 50%;
 }
 
 .partners-text{
-    /* debug */
-    border: 1px solid black;
-    height: 100%;
     width: 50%;
+    margin-left: 30px;
+}
+
+.partners-text ul li{
+    margin-top: 20px;
+}
+
+.btn-partner{
+    padding: 10px;
 }
 
 /* clients */
