@@ -211,4 +211,18 @@ li{
     background-color: blueviolet;
 }
 
+/* free trial */
+.container-freetrial{
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.wrapper-freetrial{
+    justify-content: space-around;
+    padding: 100px 0 100px 0;
+}
+
+
+/* faq */
+
 
