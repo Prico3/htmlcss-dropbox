@@ -112,9 +112,7 @@ h1{
 /* Plans */
 .container-plans{
     margin-top: 80px;
-
-    /* debug */
-    height: 1200px;
+    margin-bottom: 80px;
 }
 
 .wrapper-plans{
@@ -165,20 +163,23 @@ input + input{
 .team{
     margin-top: 40px;
     position: relative;
-    /* DEBUG */
-    height: 200px;
+    border: 1px solid black;
+
 }
 
 .team-title{
-    border: 1px solid black;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
-.team-text{
-    /* debug */
-    border: 2px solid pink;
+
+.team-text li{
+    margin-top: 10px;
     width: 70%;
-    height: 150px;
+}
+
+.team-text ul li:last-child{
+    margin-top: 30px;
 }
 
 .team-btn{
