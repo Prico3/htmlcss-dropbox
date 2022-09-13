@@ -131,42 +131,38 @@ h1{
 input + input{
     margin-left: 20px;
 }
+
+/* columns */
+
 .col{
     width: calc(100% / 3);
-    padding: 20px;
-    /* DEBUG */
-    border: 1px solid green;
-    height: 800px;
+    border: 1px solid black;
 }
 
+.first-part ul{
+    padding: 20px;
+}
+.second-part ul{
+    padding: 20px;
+}
 .first-part li{
     margin-top: 20px;
 }
+
 .second-part li{
     margin-top: 20px;
 }
 
-/* columns */
+.second-part i{
+    color:#0061ff;
+}
 
 .title-col{
-    border: 1px solid black;
     text-align: center;
+    border-bottom: 1px solid black;
 }
-
-.first-part{
-    /* DEBUG */
-    border: 1px solid green;
-}
-
-.second-part{
-    /* DEBUG */
-    border: 1px solid green;
-}
-
-
 
 .team{
-    border: 1px solid green;
     margin-top: 40px;
     position: relative;
     /* DEBUG */
