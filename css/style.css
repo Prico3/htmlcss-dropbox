@@ -210,6 +210,15 @@ input + input{
 .btn-partner{
     padding: 10px;
 }
+/* more operatins */
+
+.col-operations{
+    width: calc(100% / 3);
+    padding-right: 20px;    
+}
+.col-operations p{
+    padding-bottom: 20px;
+}
 
 /* clients */
 .container-clients{
