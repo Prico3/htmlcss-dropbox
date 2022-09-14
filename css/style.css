@@ -80,12 +80,18 @@ img{
 .white{
     color: white;
 }
+
+
 /* HEADER */
 
 .container-header{
     background-color: white;
     height: 80px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .wrapper-header{
@@ -96,7 +102,6 @@ img{
 .wrapper-header a{
     text-decoration: none;
     color: inherit;
-
 }
 
 .header-left{
@@ -113,6 +118,10 @@ img{
     margin-left: 20px;
 }
 
+.header-left img{
+    vertical-align: bottom;
+}
+
 /* MAIN */
 
 /* jumbotron */
@@ -122,7 +131,7 @@ img{
 
 .wrapper-jumbotron{
     width: 70%;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 30px;
 }
 
@@ -137,11 +146,19 @@ h1{
 .jumbo-text li{
     margin-top: 18px;
 }
-
+.col-jumbotron{
+    position: relative;
+}
 .jumbo-img{
-     width: 70%;
-     padding-top: 30px;
-     margin-top: 18px;
+    width: 70%;
+    padding-top: 30px;
+    margin-top: 18px;
+    position: absolute;
+    right: 0;
+}
+
+.jumbo-img img{
+    max-height: 450px;
 }
 
 .arrow{
@@ -151,8 +168,8 @@ h1{
 
 /* Plans */
 .container-plans{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .wrapper-plans{
