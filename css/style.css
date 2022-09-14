@@ -40,6 +40,46 @@ img{
     font-size: 2rem;
     margin-top: 30px;
 }
+
+.lightgreen{
+    background-color: #d1e9cd;
+}
+
+.green{
+    background-color: #a2d39b;
+}
+
+.burgundy{
+    background-color: #61082b;
+}
+
+.lightblue{
+    background-color: #0093ce;
+}
+
+.orange{
+    background-color: #ff1c1c;
+}
+
+.red{
+    background-color: #d5001f;
+}
+
+.aqua{
+    background-color: #b4d0e7;
+}
+
+.blue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
+.white{
+    color: white;
+}
 /* HEADER */
 
 .container-header{
@@ -220,10 +260,16 @@ input + input{
     padding-bottom: 20px;
 }
 
+.morethan{
+    margin-top: 80px;
+}
+.morethan p{
+    margin-top: 50px;
+}
+
 /* clients */
 .container-clients{
     /* debug */
-    background-color: lightblue;
     height: 800px;
 }
 .col-clients{
@@ -248,7 +294,7 @@ input + input{
 
 /* free trial */
 .container-freetrial{
-    background-color: lightcoral;
+    background-color: #b4d0e7;
 }
 
 .wrapper-freetrial{
@@ -257,6 +303,17 @@ input + input{
     justify-content: space-between;
     padding: 50px 0 50px 0;
 }
+
+.btn-trial{
+    padding: 8px 20px;
+    border: none;
+}
+
+.trial-title{
+    color: #61082b;
+}
+
+
 
 
 /* faq */
