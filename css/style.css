@@ -298,7 +298,7 @@ input + input{
 }
 
 .wrapper-freetrial{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     justify-content: space-between;
     padding: 50px 0 50px 0;
@@ -317,27 +317,32 @@ input + input{
 
 
 /* faq */
-
 .container-faq{
-    /* debug */
-    background-color: yellow;
-    height: 400px;
+    margin: 100px 0;
 }
-
 .wrapper-faq{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
-
-    /* debug */
-    background-color: aqua;    
+    padding: 50px 0 50px 0;  
 }
 
+.wrapper-faq h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
 .question{
-    /* debug */
-    height: 80px;
-    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0;
 }
+
+.one{
+    border-top: 1px solid black;
+}
+
+
+
 
 /* footer */
 .container-footer{
